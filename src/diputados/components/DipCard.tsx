@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { Button } from "flowbite-react";
 
 interface DipMode {
   id: number;
@@ -21,9 +20,10 @@ export const DipCard = ({ id, Nombre, Apellido, bloque, email }: DipMode) => {
         <p className="text-justify text-gray-600">{bloque}</p>
         <p className="text-justify text-gray-600">{email}</p>
       </div>
-      <Button className="m-4" gradientMonochrome="info">
-        <Link to={`/dipPage/${id}`}>Más...</Link>
-      </Button>
+
+      <Link className="px-5 py-2 m-4 font-medium text-center text-white rounded-lg bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800" to={`/dipPage/${id}`}>
+        Más...
+      </Link>
     </div>
   );
 };
