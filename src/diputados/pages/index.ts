@@ -1,0 +1,4 @@
+export * from "./DipPage";
+export * from "./Home";
+export * from "./About";
+export * from "./Contact";
