@@ -41,7 +41,7 @@ export const Form = () => {
         required
         rows={6}
       />
-      <Button className="w-20 mt-4 ml-4" gradientMonochrome="info">
+      <Button className="w-20 mt-4 mb-4 ml-4" gradientMonochrome="info">
         Enviar
       </Button>
     </div>
