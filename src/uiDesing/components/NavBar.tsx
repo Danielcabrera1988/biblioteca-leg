@@ -15,19 +15,19 @@ export const NavBar = () => {
       <Navbar.Toggle />
       <Navbar.Collapse>
         <Link
-          className="p-1 rounded-sm hover:bg-slate-400 active:bg-slate-200 focus:ring focus:bg-slate-200"
+          className="px-2 py-1 transition-colors rounded-sm hover:text-white hover:bg-slate-400 active:bg-slate-200 focus:ring focus:bg-slate-200"
           to="/"
         >
           Home
         </Link>
         <Link
-          className="p-1 rounded-sm hover:bg-slate-400 active:bg-slate-200 focus:ring focus:bg-slate-200"
+          className="px-2 py-1 transition-colors rounded-sm hover:text-white hover:bg-slate-400 active:bg-slate-200 focus:ring focus:bg-slate-200"
           to="/about"
         >
           About
         </Link>
         <Link
-          className="p-1 rounded-sm hover:bg-slate-400 active:bg-slate-200 focus:ring focus:bg-slate-200"
+          className="px-2 py-1 transition-colors rounded-sm hover:text-white hover:bg-slate-400 active:bg-slate-200 focus:ring focus:bg-slate-200"
           to="/contact"
         >
           Contact
