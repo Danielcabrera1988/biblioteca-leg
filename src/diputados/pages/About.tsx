@@ -4,7 +4,7 @@ export const About = () => {
       <h3 className="mb-2 font-Avenir-Medium">
         ¿Qué es la Camara de Diputados?
       </h3>
-      <p className="pl-2 mb-2 italic font-Calibri">
+      <p className="pl-2 mb-2 font-Calibri">
         Es el Poder Legislativo llamado también Parlamento, está constituido por
         un cuerpo colegiado y nuestra Constitución determina que sea ejercido
         por una Cámara de Diputados. En nuestra provincia funciona con un
