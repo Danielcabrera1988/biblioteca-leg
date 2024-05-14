@@ -1,6 +1,6 @@
 export const About = () => {
   return (
-    <div className="min-h-screen mt-24 ml-4 mr-4 text-justify animate__animated animate__fadeIn">
+    <div className="mt-24 mb-4 ml-4 mr-4 text-justify animate__animated animate__fadeIn">
       <h3 className="font-bold">¿Qué es la Camara de Diputados?</h3>
       <p className="pl-2 italic">
         Es el Poder Legislativo llamado también Parlamento, está constituido por

@@ -11,7 +11,7 @@ export const Form = () => {
     * redirigir al home
     */
   return (
-    <div className="flex flex-col min-h-screen mt-24 text-center animate__animated animate__fadeIn">
+    <div className="flex flex-col mt-24 text-center animate__animated animate__fadeIn">
       <h3 className="mb-6 ml-4 mr-4 font-medium">
         Su opinion nos interesa y cualquier inquietud no dude en consultarnos,
         responderemos a la brevedad! Estamos a su disposición.
