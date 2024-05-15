@@ -7,7 +7,7 @@ export const NavBar = () => {
   return (
     <Navbar
       fluid
-      className="fixed top-0 z-20 w-full border border-gray-100  start-0 rounded-b-xl"
+      className="fixed top-0 z-20 w-full border-gray-400 shadow-xl start-0 rounded-b-xl"
     >
       <Navbar.Brand>
         <img src={logo} className="h-10 mr-3" alt="Poder Legislativo logo" />
