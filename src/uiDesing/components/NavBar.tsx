@@ -10,7 +10,7 @@ export const NavBar = () => {
       className="fixed top-0 z-20 w-full border drop-shadow-xl start-0 rounded-b-xl"
     >
       <Navbar.Brand>
-        <img src={logo} className="h-10" alt="Poder Legislativo logo" />
+        <img src={logo} className="h-10" alt="Poder-Legislativo-logo" />
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
@@ -24,13 +24,13 @@ export const NavBar = () => {
           className="px-2 py-1 transition-colors rounded-sm hover:text-white hover:bg-slate-400 active:bg-slate-200 focus:ring focus:bg-slate-200"
           to="/about"
         >
-          About
+          Nosotros
         </Link>
         <Link
           className="px-2 py-1 transition-colors rounded-sm hover:text-white hover:bg-slate-400 active:bg-slate-200 focus:ring focus:bg-slate-200"
           to="/contact"
         >
-          Contact
+          Contacto
         </Link>
       </Navbar.Collapse>
     </Navbar>

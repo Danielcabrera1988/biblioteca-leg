@@ -2,7 +2,7 @@ const Skeleton = () => {
   return (
     <div
       role="status"
-      className="p-2 m-4 space-y-4 border border-gray-200 divide-y divide-gray-200 rounded shadow lg:my-0 lg:w-[50%] animate-pulse dark:divide-gray-700 dark:border-gray-700"
+      className="animate__animated animate__fadeInRight p-2 mb-2 mx-4 lg:my-0 lg:w-[50%] space-y-4 border border-gray-200 divide-y divide-gray-200 rounded shadow animate-pulse dark:divide-gray-700 dark:border-gray-700"
     >
       <div className="flex items-center justify-between">
         <div>

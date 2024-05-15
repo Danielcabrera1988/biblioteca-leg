@@ -13,12 +13,12 @@ export const DipPage = () => {
   }
   const dipImg = `/src/assets/diputados-img/${datadip?.id}.png`;
   return (
-    <div className="flex mt-24 flex-colmx-auto lg:flex-row">
-      <div className=" lg:w-[50%] flex flex-row gap-2 h-[400px] mx-3 border rounded-lg shadow-xl animate__animated animate__fadeInLeft">
+    <div className="flex flex-col gap-2 mx-auto mt-24 lg:flex-row">
+      <div className="lg:w-[50%] flex flex-row gap-2 h-[400px] mx-4 border rounded shadow-xl animate__animated animate__fadeInLeft">
         <img
           src={dipImg}
           alt="diputado-chaqueño"
-          className="object-cover w-[50%] rounded-s-lg"
+          className="object-cover w-[50%] rounded-s-sm"
         />
         <section className="flex flex-col gap-2 m-2 md:place-items-center md:gap-4">
           <h5 className="font-Avenir-Medium">
