@@ -1,6 +1,7 @@
 import { useMemo } from "react";
 import { Link, Navigate, useParams } from "react-router-dom";
 import { getDipById } from "../../helpers/getDipById";
+import Skeleton from "../../uiDesing/components/Skeleton";
 
 export const DipPage = () => {
   const params = useParams();
@@ -12,24 +13,20 @@ export const DipPage = () => {
   }
   const dipImg = `/src/assets/diputados-img/${datadip?.id}.png`;
   return (
-    <div className="flex m-auto">
-      <div className="flex flex-row gap-2 mt-24 ml-4 mr-5 border rounded-lg shadow-xl animate__animated animate__fadeInLeft">
+    <div className="flex flex-col gap-3 m-auto">
+      <div className="flex flex-row gap-2 h-[400px] mt-24 mx-3 border rounded-lg shadow-xl animate__animated animate__fadeInLeft">
         <img
           src={dipImg}
           alt="diputado-chaqueño"
-          className="object-cover rounded-s-lg "
+          className="object-cover w-[50%] rounded-s-lg "
         />
-        <section className="flex flex-col m-4 text-justify">
-          <h5 className="text-2xl font-bold tracking-tight text-gray-900 ">
+        <section className="flex flex-col m-2">
+          <h5 className="font-Avenir-Medium">
             {datadip?.Apellido} {datadip?.Nombre}
           </h5>
-          <p className="font-normal text-gray-700">
-            Oficina: {datadip?.Oficina}
-          </p>
-          <p className="font-normal text-gray-700">
-            Período: {datadip?.Periodo}
-          </p>
-          <p className="font-normal text-gray-700">
+          <p className="text-sm text-gray-700">Oficina: {datadip?.Oficina}</p>
+          <p className="text-sm text-gray-700">Período: {datadip?.Periodo}</p>
+          <p className="text-xs text-gray-700">
             Comisiones: {datadip?.Comisiones}
           </p>
 
@@ -41,6 +38,7 @@ export const DipPage = () => {
           </Link>
         </section>
       </div>
+      <Skeleton />
     </div>
   );
 };
