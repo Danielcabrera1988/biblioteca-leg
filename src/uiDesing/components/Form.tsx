@@ -11,8 +11,8 @@ export const Form = () => {
     * redirigir al home
     */
   return (
-    <div className="flex flex-col mt-24 text-center animate__animated animate__fadeIn">
-      <h3 className="mb-6 ml-4 mr-4 font-Avenir-Medium">
+    <div className="flex flex-col my-4 text-center animate__animated animate__fadeIn">
+      <h3 className="mx-4 mb-6 font-Avenir-Medium">
         Su opinion nos interesa y cualquier inquietud no dude en consultarnos,
         responderemos a la brevedad! Estamos a su disposición.
       </h3>
@@ -41,7 +41,7 @@ export const Form = () => {
         required
         rows={6}
       />
-      <Button className="w-20 mt-4 mb-4 ml-4" gradientMonochrome="info">
+      <Button className="w-20 my-4 ml-4" gradientMonochrome="info">
         Enviar
       </Button>
     </div>
