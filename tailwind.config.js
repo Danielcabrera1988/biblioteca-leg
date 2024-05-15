@@ -8,11 +8,11 @@ export default {
     flowbite.content(),
   ],
   theme: {
+    extend: {},
     fontFamily: {
       'Avenir-Medium': ['Avenir Book'],
       'Calibri': ['Calibri']
     },
-    extend: {},
     gridTemplateColumns: {
       autofit: 'repeat(auto-fit, minmax(300px, 1fr))'
     },
