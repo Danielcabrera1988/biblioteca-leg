@@ -1,6 +1,7 @@
 import { TextInput, Textarea } from "flowbite-react";
 import { HiMail } from "react-icons/hi";
-import { Button } from "flowbite-react";
+import { Link } from "react-router-dom";
+import { Button } from "./Button";
 
 export const Form = () => {
   /* 
@@ -10,6 +11,7 @@ export const Form = () => {
     * mostrar el ok del post
     * redirigir al home
     */
+
   return (
     <div className="flex flex-col my-4 text-center animate__animated animate__fadeIn">
       <h3 className="mx-4 mb-6 font-Avenir-Medium">
@@ -41,9 +43,7 @@ export const Form = () => {
         required
         rows={6}
       />
-      <Button className="w-20 my-4 ml-4" gradientMonochrome="info">
-        Enviar
-      </Button>
+      <Button url="/loader" name="Enviar" />
     </div>
   );
 };
