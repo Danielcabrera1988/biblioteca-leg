@@ -7,7 +7,7 @@ export const Home = () => {
         Nómina actual del Poder Legislativo
       </h2>
       <div className="grid p-3 mt-2 place-items-center grid-cols-autofit animate__animated animate__fadeIn ">
-        <DipList cantidad={5} />
+        <DipList cantidad={8} />
       </div>
     </div>
   );

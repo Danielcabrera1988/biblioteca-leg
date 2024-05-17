@@ -19,7 +19,7 @@ export const TableProyectDip = () => {
             <tr className="border">
               <td className="p-2 text-[10px] md:text-[12px]">{dip.Proyecto}</td>
               <td className="p-2 text-[10px] md:text-[12px]">{dip.Fecha}</td>
-              <td className="p-2 text-[9px] md:text-[12px]">
+              <td className="p-2 text-[9px] md:text-[12px] lg:text-[13px]">
                 {dip.Descripcion}
               </td>
               <td className="p-2 text-[10px] md:text-[12px]">{dip.Estado}</td>
