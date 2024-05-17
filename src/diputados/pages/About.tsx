@@ -1,7 +1,7 @@
 export const About = () => {
   return (
-    <div className="m-4 text-sm text-justify animate__animated animate__fadeIn">
-      <h3 className="mb-2 font-Avenir-Medium">
+    <div className="flex flex-col gap-3 m-4 text-sm text-justify md:text-base animate__animated animate__fadeIn">
+      <h3 className="mb-2 font-bold font-Avenir-Medium">
         ¿Qué es la Camara de Diputados?
       </h3>
       <p className="pl-2 mb-2 font-Calibri">
@@ -11,7 +11,9 @@ export const About = () => {
         sistema unicameral, a diferencia del Congreso de la Nación que es
         bicameral, es decir con Cámara de Diputados y Cámara de Senadores.
       </p>
-      <h3 className="mb-2 font-Avenir-Medium">¿Quiénes la Componen? </h3>
+      <h3 className="mb-2 font-bold font-Avenir-Medium">
+        ¿Quiénes la Componen?
+      </h3>
       <p className="pl-2 m-2 font-Calibri">
         La Cámara de Diputados del Chaco está compuesta en la actualidad por
         treinta y dos miembros (Diputados). Esta cifra puede elevarse como
@@ -20,8 +22,10 @@ export const About = () => {
         provincial, debidamente aprobado, se determinará el número de habitantes
         correspondientes a la representación por diputado.
       </p>
-      <h3 className="mb-2 font-Avenir-Medium">¿Cuales son sus funciones?</h3>
-      <h3 className="pl-2 font-Calibri">
+      <h3 className="mb-2 font-bold font-Avenir-Medium">
+        ¿Cuales son sus funciones?
+      </h3>
+      <h3 className="pl-2 italic font-Calibri">
         La principal función es legislar pero no es la única, también le
         corresponden numerosas atribuciones, las más importantes son:
       </h3>
@@ -62,8 +66,8 @@ export const About = () => {
           Interpelaciones, Investigaciones, etc.
         </li>
       </ul>
-      <h3 className="mt-2 mb-2 font-Avenir-Medium">
-        ¿Quienes son los Legisladores?{" "}
+      <h3 className="mt-2 mb-2 font-bold font-Avenir-Medium">
+        ¿Quienes son los Legisladores?
       </h3>
       <p className="mb-2 ml-2 italic font-Calibri">
         Los legisladores son los Diputados, son los representantes del pueblo,es
@@ -89,7 +93,7 @@ export const About = () => {
           en servicio activo.
         </li>
       </ul>
-      <h3 className="m-2 mb-2 font-Avenir-Medium">
+      <h3 className="m-2 mb-2 font-bold font-Avenir-Medium">
         Derechos y Obligaciones de los Legisladores
       </h3>
       <p className="mb-2 ml-2 font-Calibri">
