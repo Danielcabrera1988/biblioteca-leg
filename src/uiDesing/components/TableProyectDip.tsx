@@ -1,7 +1,7 @@
 import { infoLeg } from "../../diputados/data";
 export const TableProyectDip = () => {
   return (
-    <div className=" lg:m-auto mt-4 animate__animated animate__fadeInRight max-w-[90%] flex flex-col font-Calibri">
+    <div className="lg:m-auto my-4 animate__animated animate__fadeInRight max-w-[90%] flex flex-col font-Calibri">
       <h2 className="mx-auto mb-4 font-Avenir-Medium animate-bounce lg:text-xl">
         Proyectos recientes
       </h2>
