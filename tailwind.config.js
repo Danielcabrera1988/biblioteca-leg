@@ -8,6 +8,9 @@ export default {
     flowbite.content(),
   ],
   theme: {
+    variants: {
+      borderWidth: ['responsive', 'hover', 'focus']
+    },
     extend: {},
     fontFamily: {
       'Avenir-Medium': ['Avenir Book'],

@@ -12,19 +12,19 @@ export const NavBar = () => {
       <Navbar.Toggle />
       <Navbar.Collapse>
         <Link
-          className="px-2 py-1 transition-colors rounded-sm hover:text-white hover:bg-slate-400 active:bg-slate-200 focus:ring focus:bg-slate-200"
+          className="w-16 px-2 py-1 transition duration-300 ease-in border-b-2 border-white md:text-center focus:text-cyan-500 hover:text-cyan-500 hover:border-cyan-500"
           to="/"
         >
           Home
         </Link>
         <Link
-          className="px-2 py-1 transition-colors rounded-sm hover:text-white hover:bg-slate-400 active:bg-slate-200 focus:ring focus:bg-slate-200"
+          className="w-20 px-2 py-1 transition duration-300 ease-in border-b-2 border-white md:text-center focus:text-cyan-500 hover:text-cyan-500 hover:border-cyan-500"
           to="/about"
         >
           Nosotros
         </Link>
         <Link
-          className="px-2 py-1 transition-colors rounded-sm hover:text-white hover:bg-slate-400 active:bg-slate-200 focus:ring focus:bg-slate-200"
+          className="w-20 px-2 py-1 duration-300 ease-in border-b-2 border-white md:text-center ttransition focus:text-cyan-500 hover:text-cyan-500 hover:border-cyan-500"
           to="/contact"
         >
           Contacto
