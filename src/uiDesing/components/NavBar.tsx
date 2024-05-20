@@ -5,10 +5,10 @@ export const NavBar = () => {
   const logo = "/src/assets/header-pl.png";
 
   return (
-    <Navbar fluid className="w-full border drop-shadow-xl start-0 rounded-b-xl">
-      <Navbar.Brand>
+    <Navbar fluid className="min-w-full border drop-shadow-xl rounded-b-xl">
+      <Link to="/">
         <img src={logo} className="h-10" alt="Poder-Legislativo-logo" />
-      </Navbar.Brand>
+      </Link>
       <Navbar.Toggle />
       <Navbar.Collapse>
         <Link

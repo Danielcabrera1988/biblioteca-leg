@@ -1,11 +1,11 @@
 import { infoLeg } from "../../diputados/data";
 export const TableProyectDip = () => {
   return (
-    <div className="lg:m-auto my-4 animate__animated animate__fadeInRight max-w-[90%] flex flex-col font-Calibri">
-      <h2 className="mx-auto mb-4 font-Avenir-Medium animate-bounce lg:text-xl">
+    <div className="my-4 lg:mx-2 animate__animated animate__fadeInRight max-w-[80%] flex flex-col font-Calibri">
+      <h2 className="mx-auto mb-4 font-Avenir-Medium lg:text-xl">
         Proyectos recientes
       </h2>
-      <table className="h-6 mx-4 bg-slate-200">
+      <table className="h-6 bg-slate-200">
         <thead className="bg-slate-400">
           <tr>
             <th className="p-2 text-xs md:text-[12px] ">Proy/Res</th>

@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 
 export const MainLayout = () => {
   return (
-    <main className="grid grid-rows-[auto_1fr_auto] min-h-screen">
+    <main className="flex flex-col min-h-screen">
       <NavBar />
       <Outlet />
       <Footer />

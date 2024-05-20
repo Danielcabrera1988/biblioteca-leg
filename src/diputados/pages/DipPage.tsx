@@ -16,8 +16,8 @@ export const DipPage = () => {
   }
   const dipImg = `/src/assets/diputados-img/${datadip?.id}.png`;
   return (
-    <div className="flex flex-col items-center min-h-screen lg:flex-row">
-      <div className="mt-4 flex flex-row max-w-[80%] mx-4 lg:h-[430px] lg:my-auto border rounded animate__animated animate__fadeInLeft">
+    <div className="flex flex-col min-h-full place-items-center lg:flex-row lg:place-items-start">
+      <div className="mt-4 lg:mt-[60px] flex flex-row max-w-[80%] mx-4 lg:h-[430px] border rounded shadow-card animate__animated animate__fadeInLeft">
         <img
           src={dipImg}
           alt="diputado-chaqueño"

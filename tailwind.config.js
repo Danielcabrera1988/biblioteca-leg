@@ -13,10 +13,11 @@ export default {
     },
     extend: {
       boxShadow: {
-        'footer': '-8px 5px -4px rgba(0,0,0,0.25)'
+        'footer': '-8px 5px -4px rgba(0,0,0,0.25)',
+        'card': '0px 5px 25px 0px rgba(0,0,0,0.75)',
       },
       gridTemplateColumns: {
-        autofit: 'repeat(auto-fit, minmax(300px, 1fr))'
+        'autofit-cards': 'repeat(auto-fit, minmax(300px, 1fr))'
       },
     },
     fontFamily: {

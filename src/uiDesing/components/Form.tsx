@@ -12,7 +12,7 @@ export const Form = () => {
     */
 
   return (
-    <div className="flex flex-col my-4 text-center animate__animated animate__fadeIn">
+    <div className="flex flex-col min-w-full my-4 text-center animate__animated animate__fadeIn">
       <h3 className="mx-4 mb-6 font-Avenir-Medium">
         Su opinion nos interesa y cualquier inquietud no dude en consultarnos,
         responderemos a la brevedad! Estamos a su disposición.
