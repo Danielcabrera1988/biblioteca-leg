@@ -1,6 +1,3 @@
-/* import { Button } from "./Button"; */
-import { TextInput, Textarea } from "flowbite-react";
-import { HiMail } from "react-icons/hi";
 import { useState, FormEvent } from "react";
 import LoaderSendForm from "./LoaderSendForm";
 import { useNavigate } from "react-router-dom";

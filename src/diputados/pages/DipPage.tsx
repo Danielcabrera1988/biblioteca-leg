@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { Link, Navigate, useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import { getDipById } from "../../helpers/getDipById";
 import { TableProyectDip } from "../../uiDesing/components/TableProyectDip";
 import { Button } from "../../uiDesing";
