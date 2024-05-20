@@ -1,6 +1,6 @@
 export const About = () => {
   return (
-    <div className="flex flex-col gap-3 m-4 text-sm text-justify md:text-base animate__animated animate__fadeIn">
+    <div className="flex flex-col gap-3 my-6 mx-auto max-w-[90%] place-items-start text-sm text-justify md:text-base animate__animated animate__fadeIn">
       <h3 className="mb-2 font-bold font-Avenir-Medium">
         ¿Qué es la Camara de Diputados?
       </h3>
