@@ -19,7 +19,7 @@ export const Form = () => {
       </h3>
       <p className="mx-4 italic text-start font-Calibri">Nombre Completo</p>
       <TextInput
-        className="mx-4 mb-3 max-w-[90%] md:max-w-[50%]"
+        className="mx-4 mb-3 max-w-[70%] md:max-w-[50%] lg:max-w-[30%]"
         id="small"
         type="text"
         sizing="sm"
@@ -27,7 +27,7 @@ export const Form = () => {
       />
       <p className="mx-4 italic text-start font-Calibri">Correo electrónico</p>
       <TextInput
-        className="mx-4 mb-3 max-w-[90%] md:max-w-[50%]"
+        className="mx-4 mb-3 max-w-[70%] md:max-w-[50%] lg:max-w-[30%]"
         id="email4"
         type="email"
         rightIcon={HiMail}
@@ -36,7 +36,7 @@ export const Form = () => {
       />
       <p className="mx-4 italic text-start font-Calibri">Caja de comentario</p>
       <Textarea
-        className="mx-4 max-w-[90%] md:max-w-[50%]"
+        className="mx-4 max-w-[70%] md:max-w-[50%] lg:max-w-[30%]"
         placeholder="deje su comentario..."
         required
         rows={6}
