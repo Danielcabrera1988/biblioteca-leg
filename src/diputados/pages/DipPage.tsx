@@ -2,6 +2,7 @@ import { useMemo } from "react";
 import { Link, Navigate, useParams } from "react-router-dom";
 import { getDipById } from "../../helpers/getDipById";
 import { TableProyectDip } from "../../uiDesing/components/TableProyectDip";
+import { Button } from "../../uiDesing";
 
 export const DipPage = () => {
   const params = useParams();
@@ -35,13 +36,7 @@ export const DipPage = () => {
           <p className="text-[10px] sm:text-sm text-gray-700 md:text-justify md:mx-4">
             COMISIONES: {cantidadComisiones?.map((com) => com + " ")}...
           </p>
-
-          <Link
-            className="w-24 px-5 py-2 m-2 text-sm font-medium text-center text-white rounded-lg shadow-lg md:w-28 bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800 shadow-cyan-500/50"
-            to="/"
-          >
-            Regresar
-          </Link>
+          <Button url="/" name="Regresar" />
         </section>
       </div>
 

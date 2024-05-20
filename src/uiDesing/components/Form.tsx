@@ -1,6 +1,5 @@
 import { TextInput, Textarea } from "flowbite-react";
 import { HiMail } from "react-icons/hi";
-import { Link } from "react-router-dom";
 import { Button } from "./Button";
 
 export const Form = () => {
@@ -18,27 +17,26 @@ export const Form = () => {
         Su opinion nos interesa y cualquier inquietud no dude en consultarnos,
         responderemos a la brevedad! Estamos a su disposición.
       </h3>
-      <p className="ml-4 italic text-start font-Calibri">Nombre Completo</p>
+      <p className="mx-4 italic text-start font-Calibri">Nombre Completo</p>
       <TextInput
-        className="mb-3 ml-4 max-w-96"
+        className="mx-4 mb-3 max-w-[90%] md:max-w-[50%]"
         id="small"
         type="text"
         sizing="sm"
         required
       />
-      <p className="ml-4 italic text-start font-Calibri">Correo electrónico</p>
+      <p className="mx-4 italic text-start font-Calibri">Correo electrónico</p>
       <TextInput
-        className="mb-3 ml-4 max-w-96"
+        className="mx-4 mb-3 max-w-[90%] md:max-w-[50%]"
         id="email4"
         type="email"
         rightIcon={HiMail}
         placeholder="name@example.com"
         required
       />
-      <p className="ml-4 italic text-start font-Calibri">Caja de comentario</p>
+      <p className="mx-4 italic text-start font-Calibri">Caja de comentario</p>
       <Textarea
-        className="ml-4 max-w-96"
-        id="comment"
+        className="mx-4 max-w-[90%] md:max-w-[50%]"
         placeholder="deje su comentario..."
         required
         rows={6}
