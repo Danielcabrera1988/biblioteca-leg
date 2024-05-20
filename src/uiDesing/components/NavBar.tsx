@@ -2,7 +2,7 @@ import { Navbar } from "flowbite-react";
 import { Link } from "react-router-dom";
 
 export const NavBar = () => {
-  const logo = "/src/assets/header-pl.png";
+  const logo = "/assets/header-pl.png";
 
   return (
     <Navbar fluid className="min-w-full border drop-shadow-xl rounded-b-xl">

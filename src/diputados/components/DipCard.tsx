@@ -8,7 +8,7 @@ interface DipMode {
   email: string;
 }
 export const DipCard = ({ id, Nombre, Apellido, bloque, email }: DipMode) => {
-  const dipImg = `/src/assets/diputados-img/${id}.png`;
+  const dipImg = `/assets/diputados-img/${id}.png`;
 
   return (
     <div className="flex place-content-between flex-col m-2 border rounded-lg shadow-xl h-[500px] w-[280px]">
