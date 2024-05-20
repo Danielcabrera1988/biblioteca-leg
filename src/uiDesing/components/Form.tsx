@@ -31,7 +31,7 @@ export const Form = () => {
           Nombre Completo
         </label>
         <input
-          className="max-w-[80%] md:max-w-[70%] lg:max-w-[50%] rounded-md border-slate-400"
+          className="max-w-[80%] md:max-w-[70%] lg:max-w-[30%] rounded-md border-slate-400"
           type="text"
           placeholder="Fulanito de Tal"
           required
@@ -39,7 +39,7 @@ export const Form = () => {
 
         <label className="italic text-start font-Calibri">Email</label>
         <input
-          className="border-slate-400 rounded-md max-w-[80%] md:max-w-[70%] lg:max-w-[50%]"
+          className="border-slate-400 rounded-md max-w-[80%] md:max-w-[70%] lg:max-w-[30%]"
           type="email"
           placeholder="name@example.com"
           required
@@ -49,7 +49,7 @@ export const Form = () => {
           Caja de comentario
         </label>
         <textarea
-          className="border-slate-400 rounded-md max-w-[80%] md:max-w-[70%] lg:max-w-[50%]"
+          className="border-slate-400 rounded-md max-w-[80%] md:max-w-[70%] lg:max-w-[30%]"
           placeholder="Escriba su comentaio"
           rows={4}
           required
