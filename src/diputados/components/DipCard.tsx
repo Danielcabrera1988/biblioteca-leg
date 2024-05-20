@@ -12,20 +12,19 @@ export const DipCard = ({ id, Nombre, Apellido, bloque, email }: DipMode) => {
   const dipImg = `/src/assets/diputados-img/${id}.png`;
 
   return (
-    <div className="flex items-center flex-col m-2 border shadow-xl rounded-lg max-w-96 w-[310px] max-h-[700px] h-[600px]">
+    <div className="flex place-content-between flex-col m-2 border rounded-lg shadow-xl h-[500px] w-[280px]">
       <img
-        className="object-cover w-full rounded-t-lg"
+        className="object-cover rounded-t-lg"
         src={dipImg}
         alt="diputado-chaco"
       />
-      <div className="flex flex-col w-full h-full gap-2 p-4">
-        <h5 className="text-xl font-bold text-gray-800 ">
+      <div className="flex flex-col gap-2 p-2">
+        <h5 className="text-xl font-bold text-gray-800 font-Avenir-Medium ">
           {Nombre} {Apellido}
         </h5>
-        <p className="text-justify text-gray-500">{bloque}</p>
-        <p className="text-justify text-gray-500">{email}</p>
+        <p className="text-justify text-gray-500 font-Calibri">{bloque}</p>
+        <p className="text-justify text-gray-500 font-Calibri">{email}</p>
       </div>
-
       <Button url={`/dipPage/${id}`} name="Mas..." />
     </div>
   );

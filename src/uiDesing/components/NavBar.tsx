@@ -11,24 +11,27 @@ export const NavBar = () => {
       </Link>
       <Navbar.Toggle />
       <Navbar.Collapse>
-        <Link
+        <Navbar.Link
+          as={Link}
           className="w-16 px-2 py-1 transition duration-200 ease-in border-b-2 border-white md:text-center focus:text-cyan-500 hover:text-cyan-500 hover:border-cyan-500"
           to="/"
         >
           Home
-        </Link>
-        <Link
+        </Navbar.Link>
+        <Navbar.Link
+          as={Link}
           className="w-20 px-2 py-1 transition duration-200 ease-in border-b-2 border-white md:text-center focus:text-cyan-500 hover:text-cyan-500 hover:border-cyan-500"
           to="/about"
         >
           Nosotros
-        </Link>
-        <Link
+        </Navbar.Link>
+        <Navbar.Link
+          as={Link}
           className="w-20 px-2 py-1 transition duration-200 ease-in border-b-2 border-white md:text-center focus:text-cyan-500 hover:text-cyan-500 hover:border-cyan-500"
           to="/contact"
         >
           Contacto
-        </Link>
+        </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   );
