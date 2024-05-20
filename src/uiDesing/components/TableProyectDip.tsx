@@ -5,7 +5,7 @@ export const TableProyectDip = () => {
       <h2 className="mx-auto mb-4 font-Avenir-Medium animate-bounce lg:text-xl">
         Proyectos recientes
       </h2>
-      <table className="h-6 mx-4 border bg-slate-200">
+      <table className="h-6 mx-4 bg-slate-200">
         <thead className="bg-slate-400">
           <tr>
             <th className="p-2 text-xs md:text-[12px] ">Proy/Res</th>
@@ -15,8 +15,8 @@ export const TableProyectDip = () => {
           </tr>
         </thead>
         {infoLeg.map((dip) => (
-          <tbody key={dip.id}>
-            <tr className="border">
+          <tbody key={dip.id} className="">
+            <tr>
               <td className="p-2 text-[10px] md:text-[12px]">{dip.Proyecto}</td>
               <td className="p-2 text-[10px] md:text-[12px]">{dip.Fecha}</td>
               <td className="p-2 text-[9px] md:text-[12px] lg:text-[13px]">
