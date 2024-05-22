@@ -13,7 +13,7 @@ export const NavBar = () => {
       <Navbar.Collapse>
         <Navbar.Link
           as={Link}
-          className="w-16 px-4 py-1 mx-4 transition duration-300 ease-in-out border-b-2 border-white md:border-b-2 hover:bg-transparent md:text-center focus:text-cyan-500 hover:text-cyan-500 hover:border-cyan-500"
+          className="w-16 px-2 py-1 transition duration-300 ease-in-out border-b-2 border-white md:border-b-2 hover:bg-transparent md:text-center focus:text-cyan-500 hover:text-cyan-500 hover:border-cyan-500"
           to="/"
         >
           Home
