@@ -19,7 +19,7 @@ export const Form = () => {
 
   return (
     <div className="flex flex-col min-w-full my-4 text-center animate__animated animate__fadeIn">
-      <h3 className="mx-4 mb-6 font-Avenir-Medium md:text-lg">
+      <h3 className="mx-6 my-6 font-Avenir-Medium md:text-lg">
         Su opinion nos interesa y cualquier inquietud no dude en consultarnos,
         responderemos a la brevedad! Estamos a su disposición.
       </h3>
@@ -28,15 +28,14 @@ export const Form = () => {
           Nombre Completo
         </label>
         <input
-          className="max-w-[80%] md:max-w-[70%] lg:max-w-[30%] rounded-md border-slate-400"
+          className="max-w-[80%] md:max-w-[70%] lg:max-w-[30%] rounded-md border-slate-200 focus:border-cyan-200"
           type="text"
-          placeholder="Fulanito de Tal"
           required
         />
 
         <label className="italic text-start font-Calibri">Email</label>
         <input
-          className="border-slate-400 rounded-md max-w-[80%] md:max-w-[70%] lg:max-w-[30%]"
+          className="border-slate-200 focus:border-cyan-200 rounded-md max-w-[80%] md:max-w-[70%] lg:max-w-[30%]"
           type="email"
           placeholder="name@example.com"
           required
@@ -46,7 +45,7 @@ export const Form = () => {
           Caja de comentario
         </label>
         <textarea
-          className="border-slate-400 rounded-md max-w-[80%] md:max-w-[70%] lg:max-w-[30%]"
+          className="border-slate-200 focus:border-cyan-200 rounded-md max-w-[80%] md:max-w-[70%] lg:max-w-[30%]"
           placeholder="Escriba su comentaio"
           rows={4}
           required

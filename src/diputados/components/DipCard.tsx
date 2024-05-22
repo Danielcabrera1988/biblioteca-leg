@@ -11,7 +11,7 @@ export const DipCard = ({ id, Nombre, Apellido, bloque, email }: DipMode) => {
   const dipImg = `/assets/diputados-img/${id}.png`;
 
   return (
-    <div className="flex place-content-between flex-col m-2 border rounded-lg shadow-xl h-[520px] w-[280px]">
+    <div className="flex place-content-between flex-col m-2 rounded-lg shadow-md h-[520px] w-[280px]">
       <img
         className="object-cover rounded-t-lg"
         src={dipImg}
