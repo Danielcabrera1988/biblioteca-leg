@@ -1,5 +1,5 @@
 export const About = () => {
-  const imgRecinto = `/public/assets/recinto.png`;
+  const imgRecinto = `/assets/recinto.png`;
   return (
     <div className="flex flex-col gap-3 my-6 mx-auto w-[80%] place-items-start text-sm text-justify md:text-lg animate__animated animate__fadeIn sm:text-base lg:text-xl lg:max-w-[60%]">
       <div className="flex flex-col place-items-center">
@@ -12,7 +12,7 @@ export const About = () => {
           alt="recinto-poder-legislativo"
         />
       </div>
-      <section>
+      <section className="flex flex-col gap-3">
         <h3 className="my-2 font-bold font-Avenir-Medium">
           ¿Qué es la Camara de Diputados?
         </h3>
