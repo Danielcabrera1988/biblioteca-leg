@@ -21,16 +21,16 @@ export const NavBar = () => {
         <Navbar.Link
           as={Link}
           className="w-20 px-2 py-1 transition duration-300 ease-in-out border-b-2 border-white md:border-b-2 hover:bg-transparent md:text-center focus:text-cyan-500 hover:text-cyan-500 hover:border-cyan-500"
-          to="/about"
+          to="/"
         >
-          Nosotros
+          Enlace
         </Navbar.Link>
         <Navbar.Link
           as={Link}
           className="w-20 px-2 py-1 transition duration-300 ease-in-out border-b-2 border-white md:border-b-2 hover:bg-transparent md:text-center focus:text-cyan-500 hover:text-cyan-500 hover:border-cyan-500"
-          to="/contact"
+          to="/"
         >
-          Contacto
+          Enlace
         </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>

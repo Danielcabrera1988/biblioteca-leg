@@ -1,6 +1,6 @@
 export * from "./Footer";
 export * from "./NavBar";
-export * from "./Form";
+export * from "./FormContact";
 export * from "./Skeleton";
 export * from "./Button";
 export * from "./LoaderSendForm";
