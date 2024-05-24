@@ -1,18 +1,19 @@
-import { useState, FormEvent } from "react";
+import { useState, FormEvent, useRef } from "react";
 import LoaderSendForm from "./LoaderSendForm";
 import { useNavigate } from "react-router-dom";
 
 export const FormContact = () => {
-  const [submit, setSubmit] = useState(true);
+  const [submit, setSubmit] = useState(true); //estado que maneja el loading y el redirect de la web junto con el navigate
   const navigate = useNavigate();
-  const form = document.getElementById("form") as HTMLFormElement;
+  const form = useRef() as React.MutableRefObject<HTMLFormElement>;
+
   const onSubmite = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (submit) {
       setSubmit(false);
       setTimeout(() => {
         setSubmit(true);
-        form.reset();
+        form.current.reset();
         navigate("/"); //este navigate es para un futuro por si se reestructura la web
       }, 3000);
     }
@@ -28,7 +29,7 @@ export const FormContact = () => {
         </h3>
       </section>
       <form
-        id="form"
+        ref={form}
         className="flex flex-col m-4 gap-3 w-[70%] sm:w-[50%] shadow-sm p-2 bg-gray-200 rounded-md"
         onSubmit={onSubmite}
       >
