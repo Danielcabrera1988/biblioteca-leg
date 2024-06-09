@@ -1,7 +1,7 @@
-import { DipMode } from "../../interfaces";
+import { DipJson } from "../../interfaces";
 import { Button } from "../../uiDesing";
 
-export const DipCard = ({ id, Nombre, Apellido, bloque, email }: DipMode) => {
+export const DipCard = ({ id, nombre, apellido, bloque, email }: DipJson) => {
   const dipImg = `/assets/diputados-img/${id}.png`;
 
   return (
@@ -13,7 +13,7 @@ export const DipCard = ({ id, Nombre, Apellido, bloque, email }: DipMode) => {
       />
       <div className="flex flex-col gap-2 p-2">
         <h5 className="text-xl font-bold text-gray-800 font-Avenir-Medium ">
-          {Nombre} {Apellido}
+          {nombre} {apellido}
         </h5>
         <p className="font-semibold text-justify text-gray-500 font-Calibri">
           {bloque}
