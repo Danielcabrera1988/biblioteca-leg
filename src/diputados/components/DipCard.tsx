@@ -1,12 +1,6 @@
+import { DipMode } from "../../interfaces";
 import { Button } from "../../uiDesing";
 
-interface DipMode {
-  id: number;
-  Nombre: string;
-  Apellido: string;
-  bloque: string;
-  email: string;
-}
 export const DipCard = ({ id, Nombre, Apellido, bloque, email }: DipMode) => {
   const dipImg = `/assets/diputados-img/${id}.png`;
 

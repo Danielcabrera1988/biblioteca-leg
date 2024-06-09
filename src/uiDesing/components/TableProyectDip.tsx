@@ -1,4 +1,4 @@
-import { infoLeg } from "../../diputados/data";
+import { infoLegisladores } from "../../diputados/data";
 export const TableProyectDip = () => {
   return (
     <div className="my-4 lg:mx-2 animate__animated animate__fadeInRight max-w-[80%] flex flex-col font-Calibri">
@@ -14,7 +14,7 @@ export const TableProyectDip = () => {
             <th className="p-2 text-xs md:text-[12px]">Estado</th>
           </tr>
         </thead>
-        {infoLeg.map((dip) => (
+        {infoLegisladores.map((dip) => (
           <tbody key={dip.id} className="">
             <tr>
               <td className="p-2 text-[10px] md:text-[12px]">{dip.Proyecto}</td>

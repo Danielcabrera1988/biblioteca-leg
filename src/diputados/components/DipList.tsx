@@ -1,11 +1,8 @@
 import { DipCard } from "./DipCard";
 import { dipData } from "../data/dipData";
+import { CantDip } from "../../interfaces";
 
-type props = {
-  cantidad: number;
-};
-
-export const DipList = (props: props) => {
+export const DipList = (props: CantDip) => {
   return (
     <>
       {dipData.slice(0, props.cantidad).map((dip) => (

@@ -1,16 +1,6 @@
-interface DipMode {
-  id: number;
-  Nombre: string;
-  Apellido: string;
-  Periodo: string;
-  Oficina: string;
-  email: string;
-  bloque: string;
-  partido: string;
-  Comisiones: string;
-}
+import { DipJson } from "../../interfaces";
 
-export const dipData: DipMode[] = [
+export const dipData: DipJson[] = [
   {
     id: 1,
     Nombre: "Dorys Lilian",

@@ -1,12 +1,6 @@
-interface infoLeg {
-  id: number;
-  Proyecto: string;
-  Fecha: string;
-  Descripcion: string;
-  Estado: string;
-}
+import { infoLeg } from "../../interfaces";
 
-export const infoLeg: infoLeg[] = [
+export const infoLegisladores: infoLeg[] = [
   {
     id: 1,
     Proyecto: "Proyecto Resolucion N° 45/2024",

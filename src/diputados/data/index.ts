@@ -1,2 +1,2 @@
 export * from "./dipData";
-export * from "./infoLeg";
+export * from "./infoLegisladores";
