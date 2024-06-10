@@ -6,11 +6,11 @@ export interface DipJson {
   id: number;
   nombre: string;
   apellido: string;
-  Periodo?: string;
-  Oficina?: string;
+  Periodo: string;
+  Oficina: string;
   email: string;
   bloque: string;
-  partido?: string;
+  partido: string;
   Comisiones?: string;
 }
 

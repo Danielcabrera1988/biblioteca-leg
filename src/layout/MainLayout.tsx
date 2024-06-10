@@ -1,4 +1,3 @@
-import React from "react";
 import { NavBar, Footer, FormContact } from "../uiDesing/components";
 import { Outlet } from "react-router-dom";
 import { About } from "../diputados/pages/About";

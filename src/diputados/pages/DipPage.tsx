@@ -9,7 +9,7 @@ export const DipPage = () => {
   const id = parseInt(params.id!);
   const dip = useMemo(() => getDipById(id), [id]);
   const datadip = dip;
-  const comisiones = dip?.Comisiones.split(" ");
+  const comisiones = dip!.Comisiones!.split(" ");
   const cantidadComisiones = comisiones?.slice(0, 10);
   if (!dip) {
     return <Navigate to="/" />;
@@ -25,7 +25,7 @@ export const DipPage = () => {
         />
         <section className="w-[50%] flex flex-col m-2 gap-4 items-center text-justify">
           <h5 className="text-base sm:text-lg font-Avenir-Medium">
-            {datadip?.Apellido} {datadip?.Nombre}
+            {datadip?.apellido} {datadip?.nombre}
           </h5>
           <p className="text-xs text-gray-700 sm:text-sm">
             Oficina: {datadip?.Oficina}
